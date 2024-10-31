@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content>
+	<enemies>
+		<enemy id="enemy_0">
+			<health>425</health>
+			<scale>1</scale>
+			<width>280.64</width>
+			<height>261.41</height>
+			<damage>25</damage>
+			<moveSpeed>130</moveSpeed>
+			<moveAnimSpeed>0.9</moveAnimSpeed>
+			<infoOY>300</infoOY>
+			<groundOY>10</groundOY>
+			<hpBarWidth>180</hpBarWidth>
+			<resistance>0.65</resistance>
+			<coinValue>6</coinValue>
+			<coinProb>70</coinProb>
+			<spawnTime>4</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>120</range>
+				<speed>4</speed>
+				<deltatime>0.525</deltatime>
+				<shots>1</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="enemy_1">
+			<health>350</health>
+			<scale>1</scale>
+			<width>222.55</width>
+			<height>267.75</height>
+			<damage>20</damage>
+			<moveSpeed>150</moveSpeed>
+			<moveAnimSpeed>0.9</moveAnimSpeed>
+			<infoOY>325</infoOY>
+			<groundOY>27</groundOY>
+			<hpBarWidth>180</hpBarWidth>
+			<resistance>0.65</resistance>
+			<coinValue>5</coinValue>
+			<coinProb>70</coinProb>
+			<spawnTime>5.5</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>140</range>
+				<speed>4</speed>
+				<deltatime>0.65</deltatime>
+				<shots>1</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="enemy_2">
+			<health>400</health>
+			<scale>1</scale>
+			<width>242.95</width>
+			<height>261.37</height>
+			<damage>25</damage>
+			<moveSpeed>125</moveSpeed>
+			<moveAnimSpeed>0.9</moveAnimSpeed>
+			<infoOY>300</infoOY>
+			<groundOY>10</groundOY>
+			<hpBarWidth>175</hpBarWidth>
+			<resistance>0.65</resistance>
+			<coinValue>5</coinValue>
+			<coinProb>70</coinProb>
+			<spawnTime>6</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>140</range>
+				<speed>4</speed>
+				<deltatime>0.45</deltatime>
+				<shots>1</shots>
+				<movement>PROJECTILE</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>2000</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="enemy_3">
+			<health>275</health>
+			<scale>1</scale>
+			<width>221.08</width>
+			<height>251.6</height>
+			<damage>12</damage>
+			<moveSpeed>125</moveSpeed>
+			<moveAnimSpeed>0.9</moveAnimSpeed>
+			<infoOY>310</infoOY>
+			<groundOY>27</groundOY>
+			<hpBarWidth>175</hpBarWidth>
+			<resistance>0.6</resistance>
+			<coinValue>4</coinValue>
+			<coinProb>70</coinProb>
+			<spawnTime>5</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>150</range>
+				<speed>4</speed>
+				<deltatime>0.72</deltatime>
+				<shots>1</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="enemy_4">
+			<health>600</health>
+			<scale>1</scale>
+			<width>276.81</width>
+			<height>293.06</height>
+			<damage>20</damage>
+			<moveSpeed>100</moveSpeed>
+			<moveAnimSpeed>0.9</moveAnimSpeed>
+			<infoOY>310</infoOY>
+			<groundOY>-14</groundOY>
+			<hpBarWidth>175</hpBarWidth>
+			<resistance>0.8</resistance>
+			<coinValue>6</coinValue>
+			<coinProb>100</coinProb>
+			<spawnTime>7</spawnTime>
+			<weapon>
+				<type>RANGE</type>
+				<range>650</range>
+				<speed>4</speed>
+				<deltatime>0.05</deltatime>
+				<shots>2</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1200</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="enemy_5">
+			<health>115</health>
+			<scale>1</scale>
+			<width>212.03</width>
+			<height>230.51</height>
+			<damage>7</damage>
+			<moveSpeed>155</moveSpeed>
+			<moveAnimSpeed>1.1</moveAnimSpeed>
+			<infoOY>225</infoOY>
+			<groundOY>-30</groundOY>
+			<hpBarWidth>160</hpBarWidth>
+			<resistance>0.5</resistance>
+			<coinValue>3</coinValue>
+			<coinProb>65</coinProb>
+			<spawnTime>4</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>130</range>
+				<speed>4</speed>
+				<deltatime>0.55</deltatime>
+				<shots>1</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="enemy_6">
+			<health>250</health>
+			<scale>1</scale>
+			<width>182.82</width>
+			<height>232.51</height>
+			<damage>5</damage>
+			<moveSpeed>125</moveSpeed>
+			<moveAnimSpeed>1</moveAnimSpeed>
+			<infoOY>225</infoOY>
+			<groundOY>-30</groundOY>
+			<hpBarWidth>170</hpBarWidth>
+			<resistance>0.5</resistance>
+			<coinValue>3</coinValue>
+			<coinProb>50</coinProb>
+			<spawnTime>5</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>130</range>
+				<speed>4</speed>
+				<deltatime>0.425</deltatime>
+				<shots>1</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="enemy_7">
+			<health>100</health>
+			<scale>1</scale>
+			<width>209.48</width>
+			<height>226.01</height>
+			<damage>5</damage>
+			<moveSpeed>150</moveSpeed>
+			<moveAnimSpeed>1.2</moveAnimSpeed>
+			<infoOY>220</infoOY>
+			<groundOY>-30</groundOY>
+			<hpBarWidth>150</hpBarWidth>
+			<resistance>0.35</resistance>
+			<coinValue>2</coinValue>
+			<coinProb>60</coinProb>
+			<spawnTime>4</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>150</range>
+				<speed>4</speed>
+				<deltatime>0.425</deltatime>
+				<shots>1</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="enemy_8">
+			<health>85</health>
+			<scale>1</scale>
+			<width>159.89</width>
+			<height>226.02</height>
+			<damage>4</damage>
+			<moveSpeed>150</moveSpeed>
+			<moveAnimSpeed>1.2</moveAnimSpeed>
+			<infoOY>220</infoOY>
+			<groundOY>-30</groundOY>
+			<hpBarWidth>150</hpBarWidth>
+			<resistance>0.3</resistance>
+			<coinValue>2</coinValue>
+			<coinProb>60</coinProb>
+			<spawnTime>4</spawnTime>
+			<weapon>
+				<type>RANGE</type>
+				<range>500</range>
+				<speed>4</speed>
+				<deltatime>0.75</deltatime>
+				<shots>1</shots>
+				<movement>PROJECTILE</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>2000</gravity>
+			</weapon>
+		</enemy>
+
+
+		<enemy id="enemy_9">
+			<health>70</health>
+			<scale>1</scale>
+			<width>189.32</width>
+			<height>238.51</height>
+			<damage>3</damage>
+			<moveSpeed>150</moveSpeed>
+			<moveAnimSpeed>1.2</moveAnimSpeed>
+			<infoOY>230</infoOY>
+			<groundOY>-30</groundOY>
+			<hpBarWidth>150</hpBarWidth>
+			<resistance>0.3</resistance>
+			<coinValue>2</coinValue>
+			<coinProb>60</coinProb>
+			<spawnTime>3</spawnTime>
+			<weapon>
+				<type>RANGE</type>
+				<range>700</range>
+				<speed>4</speed>
+				<deltatime>0.2</deltatime>
+				<shots>1</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1750</projectileSpeed>
+				<gravity>0</gravity>
+			</weapon>
+		</enemy>
+
+
+		<enemy id="boss_0">
+			<health>700</health>
+			<scale>1</scale>
+			<width>412.48</width>
+			<height>362.5</height>
+			<damage>7</damage>
+			<moveSpeed>80</moveSpeed>
+			<moveAnimSpeed>0.9</moveAnimSpeed>
+			<infoOY>395</infoOY>
+			<groundOY>0</groundOY>
+			<hpBarWidth>250</hpBarWidth>
+			<resistance>0.9</resistance>
+			<coinValue>100</coinValue>
+			<coinProb>100</coinProb>
+			<spawnTime>20</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>275</range>
+				<speed>4</speed>
+				<deltatime>0.5</deltatime>
+				<shots>2</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="boss_1">
+			<health>10000</health>
+			<scale>1</scale>
+			<width>467.78</width>
+			<height>364.56</height>
+			<damage>75</damage>
+			<moveSpeed>100</moveSpeed>
+			<moveAnimSpeed>0.85</moveAnimSpeed>
+			<infoOY>400</infoOY>
+			<groundOY>6</groundOY>
+			<hpBarWidth>250</hpBarWidth>
+			<resistance>0.9</resistance>
+			<coinValue>500</coinValue>
+			<coinProb>100</coinProb>
+			<spawnTime>25</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>275</range>
+				<speed>4</speed>
+				<deltatime>0.5</deltatime>
+				<shots>1</shots>
+				<movement>PROJECTILE</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>2000</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="boss_2">
+			<health>6000</health>
+			<scale>1</scale>
+			<width>429.31</width>
+			<height>376.76</height>
+			<damage>30</damage>
+			<moveSpeed>90</moveSpeed>
+			<moveAnimSpeed>0.85</moveAnimSpeed>
+			<infoOY>400</infoOY>
+			<groundOY>6</groundOY>
+			<hpBarWidth>250</hpBarWidth>
+			<resistance>0.9</resistance>
+			<coinValue>300</coinValue>
+			<coinProb>100</coinProb>
+			<spawnTime>20</spawnTime>
+			<weapon>
+				<type>RANGE</type>
+				<range>800</range>
+				<speed>8</speed>
+				<deltatime>0.12</deltatime>
+				<shots>2</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1400</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="boss_3">
+			<health>2500</health>
+			<scale>1</scale>
+			<width>387.48</width>
+			<height>344.15</height>
+			<damage>15</damage>
+			<moveSpeed>80</moveSpeed>
+			<moveAnimSpeed>0.8</moveAnimSpeed>
+			<infoOY>300</infoOY>
+			<groundOY>-52</groundOY>
+			<hpBarWidth>200</hpBarWidth>
+			<resistance>0.9</resistance>
+			<coinValue>150</coinValue>
+			<coinProb>100</coinProb>
+			<spawnTime>15</spawnTime>
+			<weapon>
+				<type>RANGE</type>
+				<range>700</range>
+				<speed>4</speed>
+				<deltatime>0.67</deltatime>
+				<shots>2</shots>
+				<movement>PROJECTILE</movement>
+				<projectileSpeed>1300</projectileSpeed>
+				<gravity>2000</gravity>
+			</weapon>
+		</enemy>
+
+		<enemy id="boss_4">
+			<health>4000</health>
+			<scale>1</scale>
+			<width>455.5</width>
+			<height>369</height>
+			<damage>50</damage>
+			<moveSpeed>100</moveSpeed>
+			<moveAnimSpeed>0.8</moveAnimSpeed>
+			<infoOY>350</infoOY>
+			<groundOY>-35</groundOY>
+			<hpBarWidth>300</hpBarWidth>
+			<resistance>0.9</resistance>
+			<coinValue>225</coinValue>
+			<coinProb>100</coinProb>
+			<spawnTime>18</spawnTime>
+			<weapon>
+				<type>MELEE</type>
+				<range>300</range>
+				<speed>4</speed>
+				<deltatime>0.65</deltatime>
+				<shots>1</shots>
+				<movement>BULLET</movement>
+				<projectileSpeed>1000</projectileSpeed>
+				<gravity>500</gravity>
+			</weapon>
+		</enemy>
+	</enemies>
+	<levels>
+
+		<level id="level_0">
+			<header>Shotgun Practise</header>
+			<note>Take the precise shots with shotgun by aiming a little bit closer</note>
+			<name>First Blood</name>
+			<spawnTimeDeduction>0</spawnTimeDeduction>
+			<addHealthPerEnemy>0</addHealthPerEnemy>
+			<addDamagePerEnemy>0</addDamagePerEnemy>
+			<addCoinPerEnemey>1</addCoinPerEnemey>
+			<bg>0</bg>
+			<coinReward>200</coinReward>
+			<enemies>
+				<enemy>
+					<id>enemy_7</id>
+					<count>5</count>
+				</enemy>
+				<enemy>
+					<id>enemy_8</id>
+					<count>5</count>
+				</enemy>
+				<enemy>
+					<id>enemy_9</id>
+					<count>5</count>
+				</enemy>
+			</enemies>
+		</level>
+
+		<level id="level_1">
+			<note>Kill the enemies around the chain saw first to take reduce damage</note>
+			<name>Chain Saw</name>
+			<spawnTimeDeduction>0.25</spawnTimeDeduction>
+			<addHealthPerEnemy>15</addHealthPerEnemy>
+			<addDamagePerEnemy>0</addDamagePerEnemy>
+			<addCoinPerEnemey>2</addCoinPerEnemey>
+			<coinReward>300</coinReward>
+			<bg>1</bg>
+			<enemies>
+				<enemy>
+					<id>enemy_7</id>
+					<count>12</count>
+				</enemy>
+				<enemy>
+					<id>enemy_8</id>
+					<count>12</count>
+				</enemy>
+				<enemy>
+					<id>enemy_9</id>
+					<count>12</count>
+				</enemy>
+				<enemy>
+					<id>boss_0</id>
+					<count>1</count>
+				</enemy>
+			</enemies>
+		</level>
+
+		<level id="level_2">
+			<note>Sniper is extremely good against the mob</note>
+			<name>Get Ready Sniper</name>
+			<spawnTimeDeduction>1</spawnTimeDeduction>
+			<addHealthPerEnemy>75</addHealthPerEnemy>
+			<addDamagePerEnemy>2</addDamagePerEnemy>
+			<addCoinPerEnemey>3</addCoinPerEnemey>
+			<coinReward>350</coinReward>
+			<bg>2</bg>
+			<enemies>
+				<enemy>
+					<id>enemy_6</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>enemy_7</id>
+					<count>10</count>
+				</enemy>
+				<enemy>
+					<id>enemy_8</id>
+					<count>10</count>
+				</enemy>
+				<enemy>
+					<id>enemy_9</id>
+					<count>10</count>
+				</enemy>
+			</enemies>
+		</level>
+
+		<level id="level_3">
+			<note>You will need auto rifles to clear this level</note>
+			<name>Gunpowder Revenge</name>
+			<spawnTimeDeduction>1</spawnTimeDeduction>
+			<addHealthPerEnemy>100</addHealthPerEnemy>
+			<addDamagePerEnemy>5</addDamagePerEnemy>
+			<addCoinPerEnemey>4</addCoinPerEnemey>
+			<coinReward>400</coinReward>
+			<bg>3</bg>
+			<enemies>
+				<enemy>
+					<id>enemy_6</id>
+					<count>5</count>
+				</enemy>
+				<enemy>
+					<id>enemy_7</id>
+					<count>5</count>
+				</enemy>
+				<enemy>
+					<id>enemy_8</id>
+					<count>30</count>
+				</enemy>
+				<enemy>
+					<id>boss_3</id>
+					<count>1</count>
+				</enemy>
+			</enemies>
+		</level>
+
+		<level id="level_4">
+			<note>Weapon Upgrades are necessary for killing tougher enemies</note>
+			<name>War against Mafia</name>
+			<spawnTimeDeduction>1.25</spawnTimeDeduction>
+			<addHealthPerEnemy>125</addHealthPerEnemy>
+			<addDamagePerEnemy>10</addDamagePerEnemy>
+			<addCoinPerEnemey>5</addCoinPerEnemey>
+			<coinReward>450</coinReward>
+			<bg>4</bg>
+			<enemies>
+				<enemy>
+					<id>enemy_6</id>
+					<count>5</count>
+				</enemy>
+				<enemy>
+					<id>enemy_5</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>enemy_3</id>
+					<count>10</count>
+				</enemy>
+			</enemies>
+		</level>
+
+		<level id="level_5">
+			<note>ReFill all of your weapons, you will need them badly</note>
+			<name>End of DON</name>
+			<spawnTimeDeduction>1.5</spawnTimeDeduction>
+			<addHealthPerEnemy>125</addHealthPerEnemy>
+			<addDamagePerEnemy>12</addDamagePerEnemy>
+			<addCoinPerEnemey>6</addCoinPerEnemey>
+			<coinReward>500</coinReward>
+			<bg>5</bg>
+			<enemies>
+				<enemy>
+					<id>enemy_2</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>enemy_3</id>
+					<count>20</count>
+				</enemy>
+				<enemy>
+					<id>boss_4</id>
+					<count>1</count>
+				</enemy>
+			</enemies>
+		</level>
+
+		<level id="level_6">
+			<note>Molotov Cocktail is extremely efficient in taking down the mob</note>
+			<spawnTimeDeduction>1.65</spawnTimeDeduction>
+			<addHealthPerEnemy>150</addHealthPerEnemy>
+			<addDamagePerEnemy>15</addDamagePerEnemy>
+			<addCoinPerEnemey>7</addCoinPerEnemey>
+			<name>Blood Money</name>
+			<bg>6</bg>
+			<coinReward>650</coinReward>
+			<enemies>
+				<enemy>
+					<id>enemy_1</id>
+					<count>20</count>
+				</enemy>
+				<enemy>
+					<id>enemy_2</id>
+					<count>10</count>
+				</enemy>
+				<enemy>
+					<id>enemy_3</id>
+					<count>15</count>
+				</enemy>
+			</enemies>
+		</level>
+
+		<level id="level_7">
+			<note>Ranged enemies will damage you from a distance before melee ones</note>
+			<spawnTimeDeduction>1.75</spawnTimeDeduction>
+			<addHealthPerEnemy>200</addHealthPerEnemy>
+			<addDamagePerEnemy>18</addDamagePerEnemy>
+			<addCoinPerEnemey>8</addCoinPerEnemey>
+			<name>Gun Justice</name>
+			<bg>6</bg>
+			<coinReward>800</coinReward>
+			<enemies>
+				<enemy>
+					<id>enemy_4</id>
+					<count>10</count>
+				</enemy>
+				<enemy>
+					<id>enemy_3</id>
+					<count>10</count>
+				</enemy>
+				<enemy>
+					<id>enemy_2</id>
+					<count>15</count>
+				</enemy>
+			</enemies>
+		</level>
+
+		<level id="level_8">
+			<note>Unlock the powerful brricades from store to hold longer</note>
+			<name>Root of Evil</name>
+			<spawnTimeDeduction>2.25</spawnTimeDeduction>
+			<addHealthPerEnemy>350</addHealthPerEnemy>
+			<addDamagePerEnemy>20</addDamagePerEnemy>
+			<addCoinPerEnemey>10</addCoinPerEnemey>
+			<bg>7</bg>
+			<coinReward>1000</coinReward>
+			<enemies>
+				<enemy>
+					<id>enemy_0</id>
+					<count>5</count>
+				</enemy>
+				<enemy>
+					<id>enemy_4</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>enemy_1</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>enemy_2</id>
+					<count>20</count>
+				</enemy>
+				<enemy>
+					<id>boss_0</id>
+					<count>1</count>
+				</enemy>
+				<enemy>
+					<id>boss_2</id>
+					<count>1</count>
+				</enemy>
+			</enemies>
+		</level>
+		
+		<level id="level_9">
+			<note>It will be more tougher than you can imagine. Upgrade Everything</note>
+			<name>D-Day</name>
+			<bg>7</bg>
+			<spawnTimeDeduction>2.5</spawnTimeDeduction>
+			<addHealthPerEnemy>500</addHealthPerEnemy>
+			<addDamagePerEnemy>25</addDamagePerEnemy>
+			<addCoinPerEnemey>12</addCoinPerEnemey>
+			<coinReward>1200</coinReward>
+			<enemies>
+				<enemy>
+					<id>enemy_0</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>enemy_1</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>enemy_2</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>enemy_3</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>enemy_4</id>
+					<count>15</count>
+				</enemy>
+				<enemy>
+					<id>boss_2</id>
+					<count>1</count>
+				</enemy>
+				<enemy>
+					<id>boss_1</id>
+					<count>1</count>
+				</enemy>
+			</enemies>
+		</level>
+	</levels>
+
+</content>
